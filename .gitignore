@@ -1,0 +1,40 @@
+# Virtualenv
+/venv
+
+# src
+/src
+build/
+dist/
+
+# Compiled / optimized / dll files
+*.py[cod]
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
+# Auto-generated tag files
+tags
+
+# Editor swap files
+.sw?
+.*.sw?
+
+# Django collected static files
+/static/*
+
+# IDE-generated files
+/.idea
+
+# Celery Process files
+celerybeat-schedule
+celerybeat.pid
+
+# docker env file
+.env
+
+# local coverage file
+.coverage$
+
+# vscode workspaces
+.vscode/
